@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#d9ffb3"
+    tools:context=".MainActivity">
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Give required permission"
+      android:textSize="27dp"
+      android:textColor=" #ff1a75"
+      android:layout_gravity="center"
+      />
+  <Button
+      android:layout_width="200dp"
+      android:layout_height="100dp"
+      android:layout_margin="150dp"
+      android:id="@+id/req"
+      android:text="Request Permission"
+      android:background="#ff99ff"
+      android:elevation="40dp"
+      />
+  <Button
+      android:layout_width="200dp"
+      android:layout_height="100dp"
+      android:layout_margin="23dp"
+      android:id="@+id/dash"
+      android:text="Dashboard"
+      android:textSize="25dp"
+      android:background="#FFBD99"
+      android:elevation="40dp"
+      />
+
+
+</LinearLayout>
